@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+pyo3 = { version = "*", features = ["extension-module"] }
 
 [lib]
 name = "rust_interop"
-crate-type = ["staticlib"]
+crate-type = ["staticlib", "cdylib"]
