@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "c_interop.h"
+#include "rust_interop.h"
 
 int main(int argc, char** argv)
 {
